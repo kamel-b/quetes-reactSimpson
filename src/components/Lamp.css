@@ -1,0 +1,24 @@
+.Work img.working {
+
+    animation: App-logo-spin infinite 1s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+.Work img.notWorking{
+     
+     animation: App-logo-spin infinite 0s linear;
+     height: 40vmin;
+     pointer-events: none;
+
+}
+
+.Work{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.Work > button{
+    width : 300px;
+    padding: 10px;
+    text-align: center;
+}
